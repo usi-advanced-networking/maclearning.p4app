@@ -6,7 +6,7 @@ class SingleSwitchTopo(Topo):
 
         switch = self.addSwitch('s1')
 
-        for i in xrange(1, n+1):
+        for i in range(1, n+1):
             host = self.addHost('h%d' % i,
                                 ip = "10.0.0.%d" % i,
                                 mac = '00:00:00:00:00:%02x' % i)

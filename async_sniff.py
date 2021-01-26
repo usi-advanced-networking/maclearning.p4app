@@ -1,5 +1,6 @@
 from select import select
-from scapy.all import conf, ETH_P_ALL, MTU, plist
+from scapy import plist
+from scapy.all import conf, ETH_P_ALL, MTU
 
 # Stop sniff() asynchronously
 # Source: https://github.com/secdev/scapy/issues/989#issuecomment-380044430
